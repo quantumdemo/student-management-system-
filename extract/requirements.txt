@@ -1,9 +1,10 @@
 Flask
-Flask-Mail
-Flask-Login
-Flask-SQLAlchemy
-pymysql
+Flask-MySQLdb
 pandas
-pdfkit
+openpyxl
+Flask-Mail
 python-dotenv
+fpdf2
+Flask-Script
+Flask-Migrate
 gunicorn
