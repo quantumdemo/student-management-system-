@@ -1,0 +1,9 @@
+Flask
+Flask-Mail
+Flask-Login
+Flask-SQLAlchemy
+pymysql
+pandas
+pdfkit
+python-dotenv
+gunicorn
