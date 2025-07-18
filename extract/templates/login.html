@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="post">
+    <h2>Login</h2>
+    <label>Email/Username</label><input type="text" name="email"><br>
+    <label>Password</label><input type="password" name="password"><br>
+    <label>Login As</label>
+    <select name="role">
+        <option value="admin">Admin</option>
+        <option value="student">Student</option>
+    </select><br>
+    <button type="submit">Login</button>
+</form>
+{% endblock %}
